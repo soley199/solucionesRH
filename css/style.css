@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,100;1,500&display=swap');
+
+body {
+  background-image: url("../img/fondo.png");
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+#menu a, button{
+  font-size: 18px !important;
+  font-weight: 600;
+
+}
+
+#menu a{
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+
+}
+
+.carousel-inner{
+  max-height: 39rem;
+}
+
+
+@media (max-width:768px){
+  #intro, #clientes {
+    width: 90% !important;
+    margin: auto;
+  }
+  #clientes p {
+    display: none;
+  }
+  .servicio-fila{
+    width: 100% !important;
+    text-align: center;
+  }
+  #bg-contacto{
+    top: -110px;
+  }
+  .mapa img{
+    width: 100%;
+    height: auto;
+  }
+  #bg-contacto{
+    top: -120px;
+}
+}
+
+@media (max-width: 576px){
+  #intro, #clientes {
+    width: 90% !important;
+    margin: auto;
+  }
+  .icono-wrap{
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+}
+
+.mapa{
+  height: 500px;
+}
+
+
+#local{
+  padding-bottom: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper{
+  width: 50%;
+  padding-left: 100px;
+  padding-top: 150px;
+}
+
+@media (max-width: 1200px){
+  #intro, #clientes {
+    width: 90% !important;
+    margin: auto;
+  }
+  #local{
+    flex-wrap: wrap;
+    padding-top: 30px;
+  }
+  .wrapper{
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+  }
+}
+
+#numeros-local div{
+  padding: 0 20px 0 0;
+  height: 48px;
+}
+
+#numeros-local div:not(:last-child){
+  border-right: 2px solid #3f3f3f;
+}
+#numeros-local div:not(:first-child){
+  padding-left: 20px;
+}
+
+#numeros-local p{
+  margin: 0;
+}
+
+#bg-contacto{
+  position: relative;
+  top: -100px;
+}
+
+#seccion-contacto {
+  background-color: #198754;
+  min-height: 500px;
+  position: relative;
+}
+
+#contenedor-formulario{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  border-radius: 5px;
+  max-width: 500px;
+}
+
+#titulo-formulario{
+  color: #ffff;
+}
+
+footer{
+  background-color: #198754;
+  min-height: 100px;
+}
+
+footer p{
+  color: #ffff;
+  text-align: center;
+}
+
+#iconos{
+  font-size: 26px;
+  padding: 0 8px;
+  color: #ffff;
+}
+
