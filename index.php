@@ -12,8 +12,11 @@
 
     <title>Hello, world!</title>
   </head>
-  <body>}
-  
+  <body>
+
+<a href="https://api.whatsapp.com/send?phone=5580360949" class="btn-wsp" target="_blank"><i class="bi bi-whatsapp"></a>
+<a href="https://api.whatsapp.com/send?phone=5580360949" class="btn-wsp" target="_blank"><i class="bi bi-whatsapp"></a>
+
   <nav class="navbar navbar-expand-lg navbar-light bg-transparent p-4">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
@@ -147,7 +150,7 @@
       del candidato.</p>
   </div>
   <div class="mt-5 text-center">
-    <img class="img-fluid" src="./img/equipo.png" alt="">
+    <img class="img-fluid " id="img-equipo" src="./img/equipo.png" alt="">
   </div>
 </section>
 
@@ -187,14 +190,13 @@
 
 <section id="seccion-contacto" class="border-bottom border-secondary border-2">
   <div id="bg-contacto">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-  <path fill="#198754" fill-opacity="1" d="M0,288L40,250.7C80,213,160,139,240,112C320,85,400,107,480,122.7C560,139,640,149,720,138.7C800,128,880,96,960,106.7C1040,117,1120,171,1200,197.3C1280,224,1360,224,1400,224L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
-</svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#198754" fill-opacity="1" d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+
   </div>
 
-  <div class="container" id="contenedor-formulario">
+  <div class="container " style="max-width: 500px" id="contenedor-formulario">
   <div id="titulo-formulario" class="text-center mb-4">
-    <div><img src="./img/contac.png" class="img-fluid" alt=""></div>
+    <div><img src="./img/contac.png" class="img-fluid ps-5" alt=""></div>
     <h2 class="text-white">Contactanos</h2>
     <p class="text-white fs-5">Te estamos esperando</p>
   </div>
@@ -217,8 +219,8 @@
   </form>
 </div>
 </section>
-<footer class="w-100 d-flex align-items-center justify-content-center">
-  <p class="fs-5 px-3 pt-3">Soluciones Capital Humano. &copy; Todos los Derchos Reservados 2021</p>
+<footer class="w-100 d-flex align-items-center justify-content-center flex-wrap">
+  <p class="fs-5 px-3 pt-3">Soluciones Capital Humano. &copy; Todos los Derchos Reservados 2021 Astrid Ainhoa</p>
   <div id="iconos">
     <a href=""><i class="bi bi-facebook"></i></a>
     <a href="#"><i class="bi bi-youtube"></i></a>
