@@ -14,6 +14,9 @@
   </head>
   <body>
 
+
+
+
 <a href="https://api.whatsapp.com/send?phone=5580360949" class="btn-wsp" target="_blank"><i class="bi bi-whatsapp"></a>
 <a href="https://api.whatsapp.com/send?phone=5580360949" class="btn-wsp" target="_blank"><i class="bi bi-whatsapp"></a>
 
@@ -31,7 +34,6 @@
           <a class="nav-link active" aria-current="page" href="#">
             <span class="text-success fs-5 fw-bold">Soluciones Capital Humano</span></a>
         </li>
-        
       </ul>
       <form class="d-flex">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="menu">
@@ -43,7 +45,7 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Galeria</a>
-        </li>        
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="#seccion-contacto">Contacto</a>
         </li>
@@ -58,7 +60,7 @@
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    
+
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -102,11 +104,19 @@
   <section class="container-fluid">
       <div class="row w-75 mx-auto servicio-fila">
         <div class="col-lg-6 col-md-12 col-sm-12 d-flex  icono-wrap">
-          <img src="./img/EASO.png" class="img-fluid" alt="EASO" width="180" height="160">
+        <figure class="snip0015">
+          <img src="./img/EASO.png" alt="sample38"/>
+          <figcaption>
+            <h2><span>TITULO</span></h2>
+            <p>Proident velit sint duis minim.</p>
+            <a href="#"></a>
+          </figcaption>
+        </figure>
+          <!-- <img src="./img/EASO.png" class="img-fluid" alt="EASO" width="180" height="160">
           <div class="text-white">
           <h3 class="fs-5 mt-4 px-4 pb-1 ">TITULO</h3>
             <p class="px-4">Proident velit sint duis minim. </p>
-          </div>
+          </div> -->
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12 d-flex icono-wrap">
           <img src="./img/UTEP.png" class="img-fluid" alt="EASO" width="180" height="160">
@@ -183,8 +193,7 @@
       <div>
         <p class=" text-primary fs-5">10</p>
         <p class="text-white">Hras del Día</p>
-      </div> 
-    </section>
+      </div>
   </div>
 </div>
 
@@ -241,4 +250,3 @@
     -->
   </body>
 </html>
-
